@@ -7,6 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
     <script src="JS/script.js"></script>
+    <script>
+        "use strict";
+
+        document.addEventListener('DOMContentLoaded', function(event) {
+            document.querySelector('.header__burger').addEventListener('click', burgerClick);
+        });
+    </script>
 </head>
 <body>
     <header class="header">
