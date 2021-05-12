@@ -128,7 +128,7 @@ body{
     overflow: auto;
     background-color: #242b2e;
     transition: all 0.3s ease 0s;
-    padding: 80px 10px 10px 10px;
+    padding: 70px 0px 10px 0px;
 }
 
 .menu .active{
@@ -143,13 +143,22 @@ body{
     margin: 0;
     padding: 0;
     color: #fff;
-    font-size: 120%;
+    font-size: 140%;
 }
 
 .menu__list li{
-    margin: 20px 10px;
+    margin: 0px 0px;
     list-style: none;
     text-align: right;
+    background: linear-gradient(180deg, #333b3f ,#2e363a);
+    text-align: right;
+    padding: 20px 25px;
+    transition-duration: 0.5s;
+}
+
+.menu__list li:hover{
+    padding: 20px 30px;
+    color: #166b8f;
 }
 
 .menu__link{
@@ -157,10 +166,6 @@ body{
     text-decoration: none;
     
 }
-
-
-
-
 
 /*стили контента*/
 
